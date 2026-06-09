@@ -1,0 +1,28 @@
+﻿capital,uf,estado,regiao,latitude,longitude,fonte,link_fonte
+Rio Branco,AC,Acre,Norte,-9.97499,-67.8243,IBGE - Localidades do Brasil / Censo Demográfico 2022,https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/27385-localidades.html
+Maceió,AL,Alagoas,Nordeste,-9.66599,-35.735,IBGE - Localidades do Brasil / Censo Demográfico 2022,https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/27385-localidades.html
+Macapá,AP,Amapá,Norte,0.03493,-51.0694,IBGE - Localidades do Brasil / Censo Demográfico 2022,https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/27385-localidades.html
+Manaus,AM,Amazonas,Norte,-3.11866,-60.0212,IBGE - Localidades do Brasil / Censo Demográfico 2022,https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/27385-localidades.html
+Salvador,BA,Bahia,Nordeste,-12.9714,-38.5014,IBGE - Localidades do Brasil / Censo Demográfico 2022,https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/27385-localidades.html
+Fortaleza,CE,Ceará,Nordeste,-3.73186,-38.5267,IBGE - Localidades do Brasil / Censo Demográfico 2022,https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/27385-localidades.html
+Brasília,DF,Distrito Federal,Centro-Oeste,-15.7939,-47.8828,IBGE - Localidades do Brasil / Censo Demográfico 2022,https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/27385-localidades.html
+Vitória,ES,Espírito Santo,Sudeste,-20.3155,-40.3128,IBGE - Localidades do Brasil / Censo Demográfico 2022,https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/27385-localidades.html
+Goiânia,GO,Goiás,Centro-Oeste,-16.6864,-49.2643,IBGE - Localidades do Brasil / Censo Demográfico 2022,https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/27385-localidades.html
+São Luís,MA,Maranhão,Nordeste,-2.53073,-44.3068,IBGE - Localidades do Brasil / Censo Demográfico 2022,https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/27385-localidades.html
+Cuiabá,MT,Mato Grosso,Centro-Oeste,-15.601,-56.0974,IBGE - Localidades do Brasil / Censo Demográfico 2022,https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/27385-localidades.html
+Campo Grande,MS,Mato Grosso do Sul,Centro-Oeste,-20.4486,-54.6295,IBGE - Localidades do Brasil / Censo Demográfico 2022,https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/27385-localidades.html
+Belo Horizonte,MG,Minas Gerais,Sudeste,-19.9167,-43.9345,IBGE - Localidades do Brasil / Censo Demográfico 2022,https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/27385-localidades.html
+Belém,PA,Pará,Norte,-1.45583,-48.5039,IBGE - Localidades do Brasil / Censo Demográfico 2022,https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/27385-localidades.html
+João Pessoa,PB,Paraíba,Nordeste,-7.1195,-34.845,IBGE - Localidades do Brasil / Censo Demográfico 2022,https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/27385-localidades.html
+Curitiba,PR,Paraná,Sul,-25.4284,-49.2733,IBGE - Localidades do Brasil / Censo Demográfico 2022,https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/27385-localidades.html
+Recife,PE,Pernambuco,Nordeste,-8.04756,-34.877,IBGE - Localidades do Brasil / Censo Demográfico 2022,https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/27385-localidades.html
+Teresina,PI,Piauí,Nordeste,-5.08921,-42.8016,IBGE - Localidades do Brasil / Censo Demográfico 2022,https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/27385-localidades.html
+Rio de Janeiro,RJ,Rio de Janeiro,Sudeste,-22.9068,-43.1729,IBGE - Localidades do Brasil / Censo Demográfico 2022,https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/27385-localidades.html
+Natal,RN,Rio Grande do Norte,Nordeste,-5.79448,-35.211,IBGE - Localidades do Brasil / Censo Demográfico 2022,https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/27385-localidades.html
+Porto Alegre,RS,Rio Grande do Sul,Sul,-30.0346,-51.2177,IBGE - Localidades do Brasil / Censo Demográfico 2022,https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/27385-localidades.html
+Porto Velho,RO,Rondônia,Norte,-8.76077,-63.8999,IBGE - Localidades do Brasil / Censo Demográfico 2022,https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/27385-localidades.html
+Boa Vista,RR,Roraima,Norte,2.82384,-60.6753,IBGE - Localidades do Brasil / Censo Demográfico 2022,https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/27385-localidades.html
+Florianópolis,SC,Santa Catarina,Sul,-27.5954,-48.548,IBGE - Localidades do Brasil / Censo Demográfico 2022,https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/27385-localidades.html
+São Paulo,SP,São Paulo,Sudeste,-23.5505,-46.6333,IBGE - Localidades do Brasil / Censo Demográfico 2022,https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/27385-localidades.html
+Aracaju,SE,Sergipe,Nordeste,-10.9472,-37.0731,IBGE - Localidades do Brasil / Censo Demográfico 2022,https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/27385-localidades.html
+Palmas,TO,Tocantins,Norte,-10.184,-48.3336,IBGE - Localidades do Brasil / Censo Demográfico 2022,https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/27385-localidades.html

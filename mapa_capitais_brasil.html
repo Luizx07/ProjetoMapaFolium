@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_638acc01fda05704d084904b7e9bb49d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_638acc01fda05704d084904b7e9bb49d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_638acc01fda05704d084904b7e9bb49d = L.map(
+                "map_638acc01fda05704d084904b7e9bb49d",
+                {
+                    center: [-14.235, -51.9253],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_10ebe6613942d7d6a0523fd8adda0fe6 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_10ebe6613942d7d6a0523fd8adda0fe6.addTo(map_638acc01fda05704d084904b7e9bb49d);
+        
+    
+            var marker_841948935014c96899c079b15e79c712 = L.marker(
+                [-9.97499, -67.8243],
+                {
+}
+            ).addTo(map_638acc01fda05704d084904b7e9bb49d);
+        
+    
+        var popup_03dfd8eb3d3e2b7ace8eed4196e3059e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1b6e5ee5daed2535b233864a06b0a473 = $(`<div id="html_1b6e5ee5daed2535b233864a06b0a473" style="width: 100.0%; height: 100.0%;">     <b>Rio Branco</b><br>     Estado: Acre<br>     UF: AC<br>     Região: Norte<br>     Latitude: -9.97499<br>     Longitude: -67.8243     </div>`)[0];
+                popup_03dfd8eb3d3e2b7ace8eed4196e3059e.setContent(html_1b6e5ee5daed2535b233864a06b0a473);
+            
+        
+
+        marker_841948935014c96899c079b15e79c712.bindPopup(popup_03dfd8eb3d3e2b7ace8eed4196e3059e)
+        ;
+
+        
+    
+    
+            marker_841948935014c96899c079b15e79c712.bindTooltip(
+                `<div>
+                     Rio Branco
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6630af4c653afad84eeb4df685d10e40 = L.marker(
+                [-9.66599, -35.735],
+                {
+}
+            ).addTo(map_638acc01fda05704d084904b7e9bb49d);
+        
+    
+        var popup_95d62abbc88ec9a858a092966dbdd2dd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0dc55ac36b4a22604f525acd9e604c4f = $(`<div id="html_0dc55ac36b4a22604f525acd9e604c4f" style="width: 100.0%; height: 100.0%;">     <b>Maceió</b><br>     Estado: Alagoas<br>     UF: AL<br>     Região: Nordeste<br>     Latitude: -9.66599<br>     Longitude: -35.735     </div>`)[0];
+                popup_95d62abbc88ec9a858a092966dbdd2dd.setContent(html_0dc55ac36b4a22604f525acd9e604c4f);
+            
+        
+
+        marker_6630af4c653afad84eeb4df685d10e40.bindPopup(popup_95d62abbc88ec9a858a092966dbdd2dd)
+        ;
+
+        
+    
+    
+            marker_6630af4c653afad84eeb4df685d10e40.bindTooltip(
+                `<div>
+                     Maceió
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f3e775ff61b0191a8590ac8a679ebee5 = L.marker(
+                [0.03493, -51.0694],
+                {
+}
+            ).addTo(map_638acc01fda05704d084904b7e9bb49d);
+        
+    
+        var popup_41e8ad5e9b6304f6365bd524749e4c17 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e0bfe97774bf0356e03d439de5f32bb2 = $(`<div id="html_e0bfe97774bf0356e03d439de5f32bb2" style="width: 100.0%; height: 100.0%;">     <b>Macapá</b><br>     Estado: Amapá<br>     UF: AP<br>     Região: Norte<br>     Latitude: 0.03493<br>     Longitude: -51.0694     </div>`)[0];
+                popup_41e8ad5e9b6304f6365bd524749e4c17.setContent(html_e0bfe97774bf0356e03d439de5f32bb2);
+            
+        
+
+        marker_f3e775ff61b0191a8590ac8a679ebee5.bindPopup(popup_41e8ad5e9b6304f6365bd524749e4c17)
+        ;
+
+        
+    
+    
+            marker_f3e775ff61b0191a8590ac8a679ebee5.bindTooltip(
+                `<div>
+                     Macapá
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_120fb121993ba058620bff7cd0bda7a1 = L.marker(
+                [-3.11866, -60.0212],
+                {
+}
+            ).addTo(map_638acc01fda05704d084904b7e9bb49d);
+        
+    
+        var popup_6f609ea76455ecf85c897e1351eb5434 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_37bc78bc2ae84ebf76f7d7bde1289f05 = $(`<div id="html_37bc78bc2ae84ebf76f7d7bde1289f05" style="width: 100.0%; height: 100.0%;">     <b>Manaus</b><br>     Estado: Amazonas<br>     UF: AM<br>     Região: Norte<br>     Latitude: -3.11866<br>     Longitude: -60.0212     </div>`)[0];
+                popup_6f609ea76455ecf85c897e1351eb5434.setContent(html_37bc78bc2ae84ebf76f7d7bde1289f05);
+            
+        
+
+        marker_120fb121993ba058620bff7cd0bda7a1.bindPopup(popup_6f609ea76455ecf85c897e1351eb5434)
+        ;
+
+        
+    
+    
+            marker_120fb121993ba058620bff7cd0bda7a1.bindTooltip(
+                `<div>
+                     Manaus
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bdd14bd7b2376195bb18e0031af1ce83 = L.marker(
+                [-12.9714, -38.5014],
+                {
+}
+            ).addTo(map_638acc01fda05704d084904b7e9bb49d);
+        
+    
+        var popup_d674ea402a94eaf422b920e866ae0790 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_31ade07f18af44f66924ac230ad1e313 = $(`<div id="html_31ade07f18af44f66924ac230ad1e313" style="width: 100.0%; height: 100.0%;">     <b>Salvador</b><br>     Estado: Bahia<br>     UF: BA<br>     Região: Nordeste<br>     Latitude: -12.9714<br>     Longitude: -38.5014     </div>`)[0];
+                popup_d674ea402a94eaf422b920e866ae0790.setContent(html_31ade07f18af44f66924ac230ad1e313);
+            
+        
+
+        marker_bdd14bd7b2376195bb18e0031af1ce83.bindPopup(popup_d674ea402a94eaf422b920e866ae0790)
+        ;
+
+        
+    
+    
+            marker_bdd14bd7b2376195bb18e0031af1ce83.bindTooltip(
+                `<div>
+                     Salvador
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0d99c2072bde729f930e64dbb26d2d60 = L.marker(
+                [-3.73186, -38.5267],
+                {
+}
+            ).addTo(map_638acc01fda05704d084904b7e9bb49d);
+        
+    
+        var popup_78dd25d58a619eeb15f39f170a1cc6e0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9ebacf29d2fd4d5cb24784b498118e4c = $(`<div id="html_9ebacf29d2fd4d5cb24784b498118e4c" style="width: 100.0%; height: 100.0%;">     <b>Fortaleza</b><br>     Estado: Ceará<br>     UF: CE<br>     Região: Nordeste<br>     Latitude: -3.73186<br>     Longitude: -38.5267     </div>`)[0];
+                popup_78dd25d58a619eeb15f39f170a1cc6e0.setContent(html_9ebacf29d2fd4d5cb24784b498118e4c);
+            
+        
+
+        marker_0d99c2072bde729f930e64dbb26d2d60.bindPopup(popup_78dd25d58a619eeb15f39f170a1cc6e0)
+        ;
+
+        
+    
+    
+            marker_0d99c2072bde729f930e64dbb26d2d60.bindTooltip(
+                `<div>
+                     Fortaleza
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bc8f98f22555f5b6f9339384a6d7739e = L.marker(
+                [-15.7939, -47.8828],
+                {
+}
+            ).addTo(map_638acc01fda05704d084904b7e9bb49d);
+        
+    
+        var popup_7f667175e9ed3e7ecd7f7c007ca46c56 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dda8f6d729901e8ad282a332d21ccedb = $(`<div id="html_dda8f6d729901e8ad282a332d21ccedb" style="width: 100.0%; height: 100.0%;">     <b>Brasília</b><br>     Estado: Distrito Federal<br>     UF: DF<br>     Região: Centro-Oeste<br>     Latitude: -15.7939<br>     Longitude: -47.8828     </div>`)[0];
+                popup_7f667175e9ed3e7ecd7f7c007ca46c56.setContent(html_dda8f6d729901e8ad282a332d21ccedb);
+            
+        
+
+        marker_bc8f98f22555f5b6f9339384a6d7739e.bindPopup(popup_7f667175e9ed3e7ecd7f7c007ca46c56)
+        ;
+
+        
+    
+    
+            marker_bc8f98f22555f5b6f9339384a6d7739e.bindTooltip(
+                `<div>
+                     Brasília
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c04ca029f2433a20c2e0f89652a6f367 = L.marker(
+                [-20.3155, -40.3128],
+                {
+}
+            ).addTo(map_638acc01fda05704d084904b7e9bb49d);
+        
+    
+        var popup_cd7f9e7a5ad95af82d0c1bac38c541f9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e79f952ba25dd36992249dd01f3405eb = $(`<div id="html_e79f952ba25dd36992249dd01f3405eb" style="width: 100.0%; height: 100.0%;">     <b>Vitória</b><br>     Estado: Espírito Santo<br>     UF: ES<br>     Região: Sudeste<br>     Latitude: -20.3155<br>     Longitude: -40.3128     </div>`)[0];
+                popup_cd7f9e7a5ad95af82d0c1bac38c541f9.setContent(html_e79f952ba25dd36992249dd01f3405eb);
+            
+        
+
+        marker_c04ca029f2433a20c2e0f89652a6f367.bindPopup(popup_cd7f9e7a5ad95af82d0c1bac38c541f9)
+        ;
+
+        
+    
+    
+            marker_c04ca029f2433a20c2e0f89652a6f367.bindTooltip(
+                `<div>
+                     Vitória
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7654793722d7042cb80b9ab326dee0ff = L.marker(
+                [-16.6864, -49.2643],
+                {
+}
+            ).addTo(map_638acc01fda05704d084904b7e9bb49d);
+        
+    
+        var popup_af45c4b2887813977755b5d32341e93c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e1c5fe574b41b613a31ee1ddbd651980 = $(`<div id="html_e1c5fe574b41b613a31ee1ddbd651980" style="width: 100.0%; height: 100.0%;">     <b>Goiânia</b><br>     Estado: Goiás<br>     UF: GO<br>     Região: Centro-Oeste<br>     Latitude: -16.6864<br>     Longitude: -49.2643     </div>`)[0];
+                popup_af45c4b2887813977755b5d32341e93c.setContent(html_e1c5fe574b41b613a31ee1ddbd651980);
+            
+        
+
+        marker_7654793722d7042cb80b9ab326dee0ff.bindPopup(popup_af45c4b2887813977755b5d32341e93c)
+        ;
+
+        
+    
+    
+            marker_7654793722d7042cb80b9ab326dee0ff.bindTooltip(
+                `<div>
+                     Goiânia
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9b2e9b3bde6d46e1c96a08c5ad38cd00 = L.marker(
+                [-2.53073, -44.3068],
+                {
+}
+            ).addTo(map_638acc01fda05704d084904b7e9bb49d);
+        
+    
+        var popup_aa99b6b086de7a5b84cdfe3214576b37 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5fb80cad1047b99cf3f2b1fb619e1d52 = $(`<div id="html_5fb80cad1047b99cf3f2b1fb619e1d52" style="width: 100.0%; height: 100.0%;">     <b>São Luís</b><br>     Estado: Maranhão<br>     UF: MA<br>     Região: Nordeste<br>     Latitude: -2.53073<br>     Longitude: -44.3068     </div>`)[0];
+                popup_aa99b6b086de7a5b84cdfe3214576b37.setContent(html_5fb80cad1047b99cf3f2b1fb619e1d52);
+            
+        
+
+        marker_9b2e9b3bde6d46e1c96a08c5ad38cd00.bindPopup(popup_aa99b6b086de7a5b84cdfe3214576b37)
+        ;
+
+        
+    
+    
+            marker_9b2e9b3bde6d46e1c96a08c5ad38cd00.bindTooltip(
+                `<div>
+                     São Luís
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0a293c0b4097230f4795f435bcd6c5dc = L.marker(
+                [-15.601, -56.0974],
+                {
+}
+            ).addTo(map_638acc01fda05704d084904b7e9bb49d);
+        
+    
+        var popup_694dd9bea077b6b3a3c6e0e551d6ed78 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_567f49beb4a18062443bface484a5405 = $(`<div id="html_567f49beb4a18062443bface484a5405" style="width: 100.0%; height: 100.0%;">     <b>Cuiabá</b><br>     Estado: Mato Grosso<br>     UF: MT<br>     Região: Centro-Oeste<br>     Latitude: -15.601<br>     Longitude: -56.0974     </div>`)[0];
+                popup_694dd9bea077b6b3a3c6e0e551d6ed78.setContent(html_567f49beb4a18062443bface484a5405);
+            
+        
+
+        marker_0a293c0b4097230f4795f435bcd6c5dc.bindPopup(popup_694dd9bea077b6b3a3c6e0e551d6ed78)
+        ;
+
+        
+    
+    
+            marker_0a293c0b4097230f4795f435bcd6c5dc.bindTooltip(
+                `<div>
+                     Cuiabá
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_721b65fa76e4106f445340ea5ba94a0b = L.marker(
+                [-20.4486, -54.6295],
+                {
+}
+            ).addTo(map_638acc01fda05704d084904b7e9bb49d);
+        
+    
+        var popup_5dfe4f2230c9c9dede8cb66f4a86c60a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3f58b01a137b7723346df2ca8c972f8a = $(`<div id="html_3f58b01a137b7723346df2ca8c972f8a" style="width: 100.0%; height: 100.0%;">     <b>Campo Grande</b><br>     Estado: Mato Grosso do Sul<br>     UF: MS<br>     Região: Centro-Oeste<br>     Latitude: -20.4486<br>     Longitude: -54.6295     </div>`)[0];
+                popup_5dfe4f2230c9c9dede8cb66f4a86c60a.setContent(html_3f58b01a137b7723346df2ca8c972f8a);
+            
+        
+
+        marker_721b65fa76e4106f445340ea5ba94a0b.bindPopup(popup_5dfe4f2230c9c9dede8cb66f4a86c60a)
+        ;
+
+        
+    
+    
+            marker_721b65fa76e4106f445340ea5ba94a0b.bindTooltip(
+                `<div>
+                     Campo Grande
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_eadf7250ce7da1e22ad4931595eee3d0 = L.marker(
+                [-19.9167, -43.9345],
+                {
+}
+            ).addTo(map_638acc01fda05704d084904b7e9bb49d);
+        
+    
+        var popup_b61cacd9c8834c20039c0b09aaab599e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_18470d17d2e12f558710265d7c241d1e = $(`<div id="html_18470d17d2e12f558710265d7c241d1e" style="width: 100.0%; height: 100.0%;">     <b>Belo Horizonte</b><br>     Estado: Minas Gerais<br>     UF: MG<br>     Região: Sudeste<br>     Latitude: -19.9167<br>     Longitude: -43.9345     </div>`)[0];
+                popup_b61cacd9c8834c20039c0b09aaab599e.setContent(html_18470d17d2e12f558710265d7c241d1e);
+            
+        
+
+        marker_eadf7250ce7da1e22ad4931595eee3d0.bindPopup(popup_b61cacd9c8834c20039c0b09aaab599e)
+        ;
+
+        
+    
+    
+            marker_eadf7250ce7da1e22ad4931595eee3d0.bindTooltip(
+                `<div>
+                     Belo Horizonte
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_73322bba5935d7c7fbfd076ea9e96483 = L.marker(
+                [-1.45583, -48.5039],
+                {
+}
+            ).addTo(map_638acc01fda05704d084904b7e9bb49d);
+        
+    
+        var popup_3c2681033aa68b4da03e7c278a011c18 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ef30be492f61ebafa1df6d409a795ac4 = $(`<div id="html_ef30be492f61ebafa1df6d409a795ac4" style="width: 100.0%; height: 100.0%;">     <b>Belém</b><br>     Estado: Pará<br>     UF: PA<br>     Região: Norte<br>     Latitude: -1.45583<br>     Longitude: -48.5039     </div>`)[0];
+                popup_3c2681033aa68b4da03e7c278a011c18.setContent(html_ef30be492f61ebafa1df6d409a795ac4);
+            
+        
+
+        marker_73322bba5935d7c7fbfd076ea9e96483.bindPopup(popup_3c2681033aa68b4da03e7c278a011c18)
+        ;
+
+        
+    
+    
+            marker_73322bba5935d7c7fbfd076ea9e96483.bindTooltip(
+                `<div>
+                     Belém
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6b06c7a24c2fd1f0928e3f54237ad889 = L.marker(
+                [-7.1195, -34.845],
+                {
+}
+            ).addTo(map_638acc01fda05704d084904b7e9bb49d);
+        
+    
+        var popup_eadbbfefd456c47ef18b7a393f7474c5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f513531cdfdedfb47df8eb33ed09ffa7 = $(`<div id="html_f513531cdfdedfb47df8eb33ed09ffa7" style="width: 100.0%; height: 100.0%;">     <b>João Pessoa</b><br>     Estado: Paraíba<br>     UF: PB<br>     Região: Nordeste<br>     Latitude: -7.1195<br>     Longitude: -34.845     </div>`)[0];
+                popup_eadbbfefd456c47ef18b7a393f7474c5.setContent(html_f513531cdfdedfb47df8eb33ed09ffa7);
+            
+        
+
+        marker_6b06c7a24c2fd1f0928e3f54237ad889.bindPopup(popup_eadbbfefd456c47ef18b7a393f7474c5)
+        ;
+
+        
+    
+    
+            marker_6b06c7a24c2fd1f0928e3f54237ad889.bindTooltip(
+                `<div>
+                     João Pessoa
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9b51161fa3e754ca8b18d20e5bfd4230 = L.marker(
+                [-25.4284, -49.2733],
+                {
+}
+            ).addTo(map_638acc01fda05704d084904b7e9bb49d);
+        
+    
+        var popup_41830fe035af71bd03c2392675f70f3f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d747780033bafaa4b40f98b94aaf16e9 = $(`<div id="html_d747780033bafaa4b40f98b94aaf16e9" style="width: 100.0%; height: 100.0%;">     <b>Curitiba</b><br>     Estado: Paraná<br>     UF: PR<br>     Região: Sul<br>     Latitude: -25.4284<br>     Longitude: -49.2733     </div>`)[0];
+                popup_41830fe035af71bd03c2392675f70f3f.setContent(html_d747780033bafaa4b40f98b94aaf16e9);
+            
+        
+
+        marker_9b51161fa3e754ca8b18d20e5bfd4230.bindPopup(popup_41830fe035af71bd03c2392675f70f3f)
+        ;
+
+        
+    
+    
+            marker_9b51161fa3e754ca8b18d20e5bfd4230.bindTooltip(
+                `<div>
+                     Curitiba
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2fef02606febbab33515e27ff594ca21 = L.marker(
+                [-8.04756, -34.877],
+                {
+}
+            ).addTo(map_638acc01fda05704d084904b7e9bb49d);
+        
+    
+        var popup_7f34b911bff79ab38cf71fed57ccab1e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9d9dbdc2df4a2161b9b48d3823cce456 = $(`<div id="html_9d9dbdc2df4a2161b9b48d3823cce456" style="width: 100.0%; height: 100.0%;">     <b>Recife</b><br>     Estado: Pernambuco<br>     UF: PE<br>     Região: Nordeste<br>     Latitude: -8.04756<br>     Longitude: -34.877     </div>`)[0];
+                popup_7f34b911bff79ab38cf71fed57ccab1e.setContent(html_9d9dbdc2df4a2161b9b48d3823cce456);
+            
+        
+
+        marker_2fef02606febbab33515e27ff594ca21.bindPopup(popup_7f34b911bff79ab38cf71fed57ccab1e)
+        ;
+
+        
+    
+    
+            marker_2fef02606febbab33515e27ff594ca21.bindTooltip(
+                `<div>
+                     Recife
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fc27c6771b760b8262e82a21e5c8cd02 = L.marker(
+                [-5.08921, -42.8016],
+                {
+}
+            ).addTo(map_638acc01fda05704d084904b7e9bb49d);
+        
+    
+        var popup_97ed02765af2895852e5e59777a4238e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ed908aa3acd4dd1a89bc4b7483b7f97a = $(`<div id="html_ed908aa3acd4dd1a89bc4b7483b7f97a" style="width: 100.0%; height: 100.0%;">     <b>Teresina</b><br>     Estado: Piauí<br>     UF: PI<br>     Região: Nordeste<br>     Latitude: -5.08921<br>     Longitude: -42.8016     </div>`)[0];
+                popup_97ed02765af2895852e5e59777a4238e.setContent(html_ed908aa3acd4dd1a89bc4b7483b7f97a);
+            
+        
+
+        marker_fc27c6771b760b8262e82a21e5c8cd02.bindPopup(popup_97ed02765af2895852e5e59777a4238e)
+        ;
+
+        
+    
+    
+            marker_fc27c6771b760b8262e82a21e5c8cd02.bindTooltip(
+                `<div>
+                     Teresina
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ef05eeb1e2dfd49a2391258b395f0750 = L.marker(
+                [-22.9068, -43.1729],
+                {
+}
+            ).addTo(map_638acc01fda05704d084904b7e9bb49d);
+        
+    
+        var popup_b8072e6b69adde08cf827c11ba8989d3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d027c3697b733e6f1236a3705e71e490 = $(`<div id="html_d027c3697b733e6f1236a3705e71e490" style="width: 100.0%; height: 100.0%;">     <b>Rio de Janeiro</b><br>     Estado: Rio de Janeiro<br>     UF: RJ<br>     Região: Sudeste<br>     Latitude: -22.9068<br>     Longitude: -43.1729     </div>`)[0];
+                popup_b8072e6b69adde08cf827c11ba8989d3.setContent(html_d027c3697b733e6f1236a3705e71e490);
+            
+        
+
+        marker_ef05eeb1e2dfd49a2391258b395f0750.bindPopup(popup_b8072e6b69adde08cf827c11ba8989d3)
+        ;
+
+        
+    
+    
+            marker_ef05eeb1e2dfd49a2391258b395f0750.bindTooltip(
+                `<div>
+                     Rio de Janeiro
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_051a4b7ed97d98bd2a4943fc38c995dd = L.marker(
+                [-5.79448, -35.211],
+                {
+}
+            ).addTo(map_638acc01fda05704d084904b7e9bb49d);
+        
+    
+        var popup_d35aa036d379a870ab1cda203a3e9d4e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8248bb705aeb05462c56a66cf6db9268 = $(`<div id="html_8248bb705aeb05462c56a66cf6db9268" style="width: 100.0%; height: 100.0%;">     <b>Natal</b><br>     Estado: Rio Grande do Norte<br>     UF: RN<br>     Região: Nordeste<br>     Latitude: -5.79448<br>     Longitude: -35.211     </div>`)[0];
+                popup_d35aa036d379a870ab1cda203a3e9d4e.setContent(html_8248bb705aeb05462c56a66cf6db9268);
+            
+        
+
+        marker_051a4b7ed97d98bd2a4943fc38c995dd.bindPopup(popup_d35aa036d379a870ab1cda203a3e9d4e)
+        ;
+
+        
+    
+    
+            marker_051a4b7ed97d98bd2a4943fc38c995dd.bindTooltip(
+                `<div>
+                     Natal
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_be12b956b0b4a7dc95fec4120737c8c4 = L.marker(
+                [-30.0346, -51.2177],
+                {
+}
+            ).addTo(map_638acc01fda05704d084904b7e9bb49d);
+        
+    
+        var popup_08960486bd77fdfa561e4284500f3a43 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f2ce330a0532f6b2ad29685bb9d67bee = $(`<div id="html_f2ce330a0532f6b2ad29685bb9d67bee" style="width: 100.0%; height: 100.0%;">     <b>Porto Alegre</b><br>     Estado: Rio Grande do Sul<br>     UF: RS<br>     Região: Sul<br>     Latitude: -30.0346<br>     Longitude: -51.2177     </div>`)[0];
+                popup_08960486bd77fdfa561e4284500f3a43.setContent(html_f2ce330a0532f6b2ad29685bb9d67bee);
+            
+        
+
+        marker_be12b956b0b4a7dc95fec4120737c8c4.bindPopup(popup_08960486bd77fdfa561e4284500f3a43)
+        ;
+
+        
+    
+    
+            marker_be12b956b0b4a7dc95fec4120737c8c4.bindTooltip(
+                `<div>
+                     Porto Alegre
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_405c594fb94b6dbd3432af51b5f44d5e = L.marker(
+                [-8.76077, -63.8999],
+                {
+}
+            ).addTo(map_638acc01fda05704d084904b7e9bb49d);
+        
+    
+        var popup_ae725a4e67308a7809f92a9438b33839 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_17facb34466a06d8c462f63707d91d55 = $(`<div id="html_17facb34466a06d8c462f63707d91d55" style="width: 100.0%; height: 100.0%;">     <b>Porto Velho</b><br>     Estado: Rondônia<br>     UF: RO<br>     Região: Norte<br>     Latitude: -8.76077<br>     Longitude: -63.8999     </div>`)[0];
+                popup_ae725a4e67308a7809f92a9438b33839.setContent(html_17facb34466a06d8c462f63707d91d55);
+            
+        
+
+        marker_405c594fb94b6dbd3432af51b5f44d5e.bindPopup(popup_ae725a4e67308a7809f92a9438b33839)
+        ;
+
+        
+    
+    
+            marker_405c594fb94b6dbd3432af51b5f44d5e.bindTooltip(
+                `<div>
+                     Porto Velho
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c20912360888827f0ad21dbba8867576 = L.marker(
+                [2.82384, -60.6753],
+                {
+}
+            ).addTo(map_638acc01fda05704d084904b7e9bb49d);
+        
+    
+        var popup_2860988af203ceeb8ca49cd6d8cb7c55 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_455456e94543b1b752269ba250dc43d5 = $(`<div id="html_455456e94543b1b752269ba250dc43d5" style="width: 100.0%; height: 100.0%;">     <b>Boa Vista</b><br>     Estado: Roraima<br>     UF: RR<br>     Região: Norte<br>     Latitude: 2.82384<br>     Longitude: -60.6753     </div>`)[0];
+                popup_2860988af203ceeb8ca49cd6d8cb7c55.setContent(html_455456e94543b1b752269ba250dc43d5);
+            
+        
+
+        marker_c20912360888827f0ad21dbba8867576.bindPopup(popup_2860988af203ceeb8ca49cd6d8cb7c55)
+        ;
+
+        
+    
+    
+            marker_c20912360888827f0ad21dbba8867576.bindTooltip(
+                `<div>
+                     Boa Vista
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_aaa63dd22c0deea486ba89e05782101f = L.marker(
+                [-27.5954, -48.548],
+                {
+}
+            ).addTo(map_638acc01fda05704d084904b7e9bb49d);
+        
+    
+        var popup_be189efa67479bab3e9f6483aa352f40 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_03780a0d412612843c3c57872b84d5c7 = $(`<div id="html_03780a0d412612843c3c57872b84d5c7" style="width: 100.0%; height: 100.0%;">     <b>Florianópolis</b><br>     Estado: Santa Catarina<br>     UF: SC<br>     Região: Sul<br>     Latitude: -27.5954<br>     Longitude: -48.548     </div>`)[0];
+                popup_be189efa67479bab3e9f6483aa352f40.setContent(html_03780a0d412612843c3c57872b84d5c7);
+            
+        
+
+        marker_aaa63dd22c0deea486ba89e05782101f.bindPopup(popup_be189efa67479bab3e9f6483aa352f40)
+        ;
+
+        
+    
+    
+            marker_aaa63dd22c0deea486ba89e05782101f.bindTooltip(
+                `<div>
+                     Florianópolis
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6bc8b695f3c538e4c94578fcdf78486e = L.marker(
+                [-23.5505, -46.6333],
+                {
+}
+            ).addTo(map_638acc01fda05704d084904b7e9bb49d);
+        
+    
+        var popup_18b583f2657f845744c60f67f39d7d92 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce670709eac65801a5ce802f8ef62fd5 = $(`<div id="html_ce670709eac65801a5ce802f8ef62fd5" style="width: 100.0%; height: 100.0%;">     <b>São Paulo</b><br>     Estado: São Paulo<br>     UF: SP<br>     Região: Sudeste<br>     Latitude: -23.5505<br>     Longitude: -46.6333     </div>`)[0];
+                popup_18b583f2657f845744c60f67f39d7d92.setContent(html_ce670709eac65801a5ce802f8ef62fd5);
+            
+        
+
+        marker_6bc8b695f3c538e4c94578fcdf78486e.bindPopup(popup_18b583f2657f845744c60f67f39d7d92)
+        ;
+
+        
+    
+    
+            marker_6bc8b695f3c538e4c94578fcdf78486e.bindTooltip(
+                `<div>
+                     São Paulo
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_64f22ed2ae4c5b05c922d668c4f7eec2 = L.marker(
+                [-10.9472, -37.0731],
+                {
+}
+            ).addTo(map_638acc01fda05704d084904b7e9bb49d);
+        
+    
+        var popup_8db8efe5b3808fa0cd0431752db3d1a8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_093881b89d43dff98da1b67faadad2f8 = $(`<div id="html_093881b89d43dff98da1b67faadad2f8" style="width: 100.0%; height: 100.0%;">     <b>Aracaju</b><br>     Estado: Sergipe<br>     UF: SE<br>     Região: Nordeste<br>     Latitude: -10.9472<br>     Longitude: -37.0731     </div>`)[0];
+                popup_8db8efe5b3808fa0cd0431752db3d1a8.setContent(html_093881b89d43dff98da1b67faadad2f8);
+            
+        
+
+        marker_64f22ed2ae4c5b05c922d668c4f7eec2.bindPopup(popup_8db8efe5b3808fa0cd0431752db3d1a8)
+        ;
+
+        
+    
+    
+            marker_64f22ed2ae4c5b05c922d668c4f7eec2.bindTooltip(
+                `<div>
+                     Aracaju
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3256e4edadbd8ece998ef41e922c3804 = L.marker(
+                [-10.184, -48.3336],
+                {
+}
+            ).addTo(map_638acc01fda05704d084904b7e9bb49d);
+        
+    
+        var popup_df0442dc7369704c4c0bd82044e1058d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_73fb7dea597bc1d3425e7a2a71635c17 = $(`<div id="html_73fb7dea597bc1d3425e7a2a71635c17" style="width: 100.0%; height: 100.0%;">     <b>Palmas</b><br>     Estado: Tocantins<br>     UF: TO<br>     Região: Norte<br>     Latitude: -10.184<br>     Longitude: -48.3336     </div>`)[0];
+                popup_df0442dc7369704c4c0bd82044e1058d.setContent(html_73fb7dea597bc1d3425e7a2a71635c17);
+            
+        
+
+        marker_3256e4edadbd8ece998ef41e922c3804.bindPopup(popup_df0442dc7369704c4c0bd82044e1058d)
+        ;
+
+        
+    
+    
+            marker_3256e4edadbd8ece998ef41e922c3804.bindTooltip(
+                `<div>
+                     Palmas
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
