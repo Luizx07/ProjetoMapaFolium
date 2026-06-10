@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b2dd9040ed61b1fb1a9079bd98457a8b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b2dd9040ed61b1fb1a9079bd98457a8b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b2dd9040ed61b1fb1a9079bd98457a8b = L.map(
+                "map_b2dd9040ed61b1fb1a9079bd98457a8b",
+                {
+                    center: [-15.2738, -55.4459],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_612121b6be8af6a272dd765906a39be9 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_612121b6be8af6a272dd765906a39be9.addTo(map_b2dd9040ed61b1fb1a9079bd98457a8b);
+        
+    
+            var feature_group_5a023112c7fad05f1ea8705cc1e97bb3 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_48102d6faa658954061eb7c0f9c0ec10 = L.marker(
+                [-9.97499, -67.8243],
+                {
+}
+            ).addTo(feature_group_5a023112c7fad05f1ea8705cc1e97bb3);
+        
+    
+        var popup_62efaaddc2563ab0987acf195e08a594 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bc3aabaae607e733a90ccbd85cb00876 = $(`<div id="html_bc3aabaae607e733a90ccbd85cb00876" style="width: 100.0%; height: 100.0%;">         <b>Rio Branco</b><br>         Estado: Acre<br>         UF: AC<br>         Região: Norte<br>         Código IBGE do Estado: 12<br>         Região pela API: Norte<br>         Latitude: -9.97499<br>         Longitude: -67.8243         </div>`)[0];
+                popup_62efaaddc2563ab0987acf195e08a594.setContent(html_bc3aabaae607e733a90ccbd85cb00876);
+            
+        
+
+        marker_48102d6faa658954061eb7c0f9c0ec10.bindPopup(popup_62efaaddc2563ab0987acf195e08a594)
+        ;
+
+        
+    
+    
+            marker_48102d6faa658954061eb7c0f9c0ec10.bindTooltip(
+                `<div>
+                     Rio Branco
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fdecb4ec83b12eebc6249fef6cad1660 = L.marker(
+                [0.03493, -51.0694],
+                {
+}
+            ).addTo(feature_group_5a023112c7fad05f1ea8705cc1e97bb3);
+        
+    
+        var popup_77f6570390d57f2ce6d05dcaa89a3907 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_42d52142293e2a3efc3c374e009fd50b = $(`<div id="html_42d52142293e2a3efc3c374e009fd50b" style="width: 100.0%; height: 100.0%;">         <b>Macapá</b><br>         Estado: Amapá<br>         UF: AP<br>         Região: Norte<br>         Código IBGE do Estado: 16<br>         Região pela API: Norte<br>         Latitude: 0.03493<br>         Longitude: -51.0694         </div>`)[0];
+                popup_77f6570390d57f2ce6d05dcaa89a3907.setContent(html_42d52142293e2a3efc3c374e009fd50b);
+            
+        
+
+        marker_fdecb4ec83b12eebc6249fef6cad1660.bindPopup(popup_77f6570390d57f2ce6d05dcaa89a3907)
+        ;
+
+        
+    
+    
+            marker_fdecb4ec83b12eebc6249fef6cad1660.bindTooltip(
+                `<div>
+                     Macapá
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f68af52b673ef81435fef621f278172a = L.marker(
+                [-3.11866, -60.0212],
+                {
+}
+            ).addTo(feature_group_5a023112c7fad05f1ea8705cc1e97bb3);
+        
+    
+        var popup_9b055b8610f78af310e20880f5923144 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1a6d7826a5fbea41571314de805ee424 = $(`<div id="html_1a6d7826a5fbea41571314de805ee424" style="width: 100.0%; height: 100.0%;">         <b>Manaus</b><br>         Estado: Amazonas<br>         UF: AM<br>         Região: Norte<br>         Código IBGE do Estado: 13<br>         Região pela API: Norte<br>         Latitude: -3.11866<br>         Longitude: -60.0212         </div>`)[0];
+                popup_9b055b8610f78af310e20880f5923144.setContent(html_1a6d7826a5fbea41571314de805ee424);
+            
+        
+
+        marker_f68af52b673ef81435fef621f278172a.bindPopup(popup_9b055b8610f78af310e20880f5923144)
+        ;
+
+        
+    
+    
+            marker_f68af52b673ef81435fef621f278172a.bindTooltip(
+                `<div>
+                     Manaus
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ca3f749bf7dbfa61ed4e6cdf0f86a2b0 = L.marker(
+                [-1.45583, -48.5039],
+                {
+}
+            ).addTo(feature_group_5a023112c7fad05f1ea8705cc1e97bb3);
+        
+    
+        var popup_b150ea8fb84333a25cb876c21b60ee31 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_eb80283f91d0621e6315afd811e8f8df = $(`<div id="html_eb80283f91d0621e6315afd811e8f8df" style="width: 100.0%; height: 100.0%;">         <b>Belém</b><br>         Estado: Pará<br>         UF: PA<br>         Região: Norte<br>         Código IBGE do Estado: 15<br>         Região pela API: Norte<br>         Latitude: -1.45583<br>         Longitude: -48.5039         </div>`)[0];
+                popup_b150ea8fb84333a25cb876c21b60ee31.setContent(html_eb80283f91d0621e6315afd811e8f8df);
+            
+        
+
+        marker_ca3f749bf7dbfa61ed4e6cdf0f86a2b0.bindPopup(popup_b150ea8fb84333a25cb876c21b60ee31)
+        ;
+
+        
+    
+    
+            marker_ca3f749bf7dbfa61ed4e6cdf0f86a2b0.bindTooltip(
+                `<div>
+                     Belém
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c6bbbef71f33af540f01780dfcb3aadd = L.marker(
+                [-8.76077, -63.8999],
+                {
+}
+            ).addTo(feature_group_5a023112c7fad05f1ea8705cc1e97bb3);
+        
+    
+        var popup_e66a4d5d674143fb9a7368f31b28cdea = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_07d77c9969bef977f879da4fed216221 = $(`<div id="html_07d77c9969bef977f879da4fed216221" style="width: 100.0%; height: 100.0%;">         <b>Porto Velho</b><br>         Estado: Rondônia<br>         UF: RO<br>         Região: Norte<br>         Código IBGE do Estado: 11<br>         Região pela API: Norte<br>         Latitude: -8.76077<br>         Longitude: -63.8999         </div>`)[0];
+                popup_e66a4d5d674143fb9a7368f31b28cdea.setContent(html_07d77c9969bef977f879da4fed216221);
+            
+        
+
+        marker_c6bbbef71f33af540f01780dfcb3aadd.bindPopup(popup_e66a4d5d674143fb9a7368f31b28cdea)
+        ;
+
+        
+    
+    
+            marker_c6bbbef71f33af540f01780dfcb3aadd.bindTooltip(
+                `<div>
+                     Porto Velho
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_be912192d3a2ace96f7cacc4fab2a163 = L.marker(
+                [2.82384, -60.6753],
+                {
+}
+            ).addTo(feature_group_5a023112c7fad05f1ea8705cc1e97bb3);
+        
+    
+        var popup_352b3b297ab3859b4ac220ba6869f0c6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9c16362c0509e4417aee3ea4b370edfa = $(`<div id="html_9c16362c0509e4417aee3ea4b370edfa" style="width: 100.0%; height: 100.0%;">         <b>Boa Vista</b><br>         Estado: Roraima<br>         UF: RR<br>         Região: Norte<br>         Código IBGE do Estado: 14<br>         Região pela API: Norte<br>         Latitude: 2.82384<br>         Longitude: -60.6753         </div>`)[0];
+                popup_352b3b297ab3859b4ac220ba6869f0c6.setContent(html_9c16362c0509e4417aee3ea4b370edfa);
+            
+        
+
+        marker_be912192d3a2ace96f7cacc4fab2a163.bindPopup(popup_352b3b297ab3859b4ac220ba6869f0c6)
+        ;
+
+        
+    
+    
+            marker_be912192d3a2ace96f7cacc4fab2a163.bindTooltip(
+                `<div>
+                     Boa Vista
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_33dedad2850e5e7b612f98f324c94b4f = L.marker(
+                [-10.184, -48.3336],
+                {
+}
+            ).addTo(feature_group_5a023112c7fad05f1ea8705cc1e97bb3);
+        
+    
+        var popup_e15d487269bb7a2d3ec8edfc813a29a6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5eaca8c418c99c8a2584a0068eefe272 = $(`<div id="html_5eaca8c418c99c8a2584a0068eefe272" style="width: 100.0%; height: 100.0%;">         <b>Palmas</b><br>         Estado: Tocantins<br>         UF: TO<br>         Região: Norte<br>         Código IBGE do Estado: 17<br>         Região pela API: Norte<br>         Latitude: -10.184<br>         Longitude: -48.3336         </div>`)[0];
+                popup_e15d487269bb7a2d3ec8edfc813a29a6.setContent(html_5eaca8c418c99c8a2584a0068eefe272);
+            
+        
+
+        marker_33dedad2850e5e7b612f98f324c94b4f.bindPopup(popup_e15d487269bb7a2d3ec8edfc813a29a6)
+        ;
+
+        
+    
+    
+            marker_33dedad2850e5e7b612f98f324c94b4f.bindTooltip(
+                `<div>
+                     Palmas
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_5a023112c7fad05f1ea8705cc1e97bb3.addTo(map_b2dd9040ed61b1fb1a9079bd98457a8b);
+        
+    
+            var feature_group_898ed7accb88460dc26e49ab12791c90 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_f43bed1f7f77da8107848c15a97de71d = L.marker(
+                [-9.66599, -35.735],
+                {
+}
+            ).addTo(feature_group_898ed7accb88460dc26e49ab12791c90);
+        
+    
+        var popup_ecd5a487b6e8e6f625bf8c355d5923b8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_af00577c3992a2c9c21964ab18299c2f = $(`<div id="html_af00577c3992a2c9c21964ab18299c2f" style="width: 100.0%; height: 100.0%;">         <b>Maceió</b><br>         Estado: Alagoas<br>         UF: AL<br>         Região: Nordeste<br>         Código IBGE do Estado: 27<br>         Região pela API: Nordeste<br>         Latitude: -9.66599<br>         Longitude: -35.735         </div>`)[0];
+                popup_ecd5a487b6e8e6f625bf8c355d5923b8.setContent(html_af00577c3992a2c9c21964ab18299c2f);
+            
+        
+
+        marker_f43bed1f7f77da8107848c15a97de71d.bindPopup(popup_ecd5a487b6e8e6f625bf8c355d5923b8)
+        ;
+
+        
+    
+    
+            marker_f43bed1f7f77da8107848c15a97de71d.bindTooltip(
+                `<div>
+                     Maceió
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_69d64bcfef34b1549f9f3dab2e8d552a = L.marker(
+                [-12.9714, -38.5014],
+                {
+}
+            ).addTo(feature_group_898ed7accb88460dc26e49ab12791c90);
+        
+    
+        var popup_9726ba1d490b9f9a722f4e86a435d28a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8a9782616b91fe14eaf6661a2a138265 = $(`<div id="html_8a9782616b91fe14eaf6661a2a138265" style="width: 100.0%; height: 100.0%;">         <b>Salvador</b><br>         Estado: Bahia<br>         UF: BA<br>         Região: Nordeste<br>         Código IBGE do Estado: 29<br>         Região pela API: Nordeste<br>         Latitude: -12.9714<br>         Longitude: -38.5014         </div>`)[0];
+                popup_9726ba1d490b9f9a722f4e86a435d28a.setContent(html_8a9782616b91fe14eaf6661a2a138265);
+            
+        
+
+        marker_69d64bcfef34b1549f9f3dab2e8d552a.bindPopup(popup_9726ba1d490b9f9a722f4e86a435d28a)
+        ;
+
+        
+    
+    
+            marker_69d64bcfef34b1549f9f3dab2e8d552a.bindTooltip(
+                `<div>
+                     Salvador
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_eeabf0be0af397522637b16421953e9b = L.marker(
+                [-3.73186, -38.5267],
+                {
+}
+            ).addTo(feature_group_898ed7accb88460dc26e49ab12791c90);
+        
+    
+        var popup_d9db579f7a710eaf9f7d4dbc9d67bca5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_155742d66a00db779f40c0a15fc52f47 = $(`<div id="html_155742d66a00db779f40c0a15fc52f47" style="width: 100.0%; height: 100.0%;">         <b>Fortaleza</b><br>         Estado: Ceará<br>         UF: CE<br>         Região: Nordeste<br>         Código IBGE do Estado: 23<br>         Região pela API: Nordeste<br>         Latitude: -3.73186<br>         Longitude: -38.5267         </div>`)[0];
+                popup_d9db579f7a710eaf9f7d4dbc9d67bca5.setContent(html_155742d66a00db779f40c0a15fc52f47);
+            
+        
+
+        marker_eeabf0be0af397522637b16421953e9b.bindPopup(popup_d9db579f7a710eaf9f7d4dbc9d67bca5)
+        ;
+
+        
+    
+    
+            marker_eeabf0be0af397522637b16421953e9b.bindTooltip(
+                `<div>
+                     Fortaleza
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_43bc08f9c5495f2229eb660115486bd1 = L.marker(
+                [-2.53073, -44.3068],
+                {
+}
+            ).addTo(feature_group_898ed7accb88460dc26e49ab12791c90);
+        
+    
+        var popup_dc7fa83043cfcc11bd54e2dc200163a4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d0b82b17ae9dbb776502da39cc69ad7f = $(`<div id="html_d0b82b17ae9dbb776502da39cc69ad7f" style="width: 100.0%; height: 100.0%;">         <b>São Luís</b><br>         Estado: Maranhão<br>         UF: MA<br>         Região: Nordeste<br>         Código IBGE do Estado: 21<br>         Região pela API: Nordeste<br>         Latitude: -2.53073<br>         Longitude: -44.3068         </div>`)[0];
+                popup_dc7fa83043cfcc11bd54e2dc200163a4.setContent(html_d0b82b17ae9dbb776502da39cc69ad7f);
+            
+        
+
+        marker_43bc08f9c5495f2229eb660115486bd1.bindPopup(popup_dc7fa83043cfcc11bd54e2dc200163a4)
+        ;
+
+        
+    
+    
+            marker_43bc08f9c5495f2229eb660115486bd1.bindTooltip(
+                `<div>
+                     São Luís
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_64a88b30f8cdb9488e8ed905e81a9650 = L.marker(
+                [-7.1195, -34.845],
+                {
+}
+            ).addTo(feature_group_898ed7accb88460dc26e49ab12791c90);
+        
+    
+        var popup_5652fcc3aac07ca1b2fd85f75fc23025 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7f776114736ff8cc6c1be6b656cf6f2e = $(`<div id="html_7f776114736ff8cc6c1be6b656cf6f2e" style="width: 100.0%; height: 100.0%;">         <b>João Pessoa</b><br>         Estado: Paraíba<br>         UF: PB<br>         Região: Nordeste<br>         Código IBGE do Estado: 25<br>         Região pela API: Nordeste<br>         Latitude: -7.1195<br>         Longitude: -34.845         </div>`)[0];
+                popup_5652fcc3aac07ca1b2fd85f75fc23025.setContent(html_7f776114736ff8cc6c1be6b656cf6f2e);
+            
+        
+
+        marker_64a88b30f8cdb9488e8ed905e81a9650.bindPopup(popup_5652fcc3aac07ca1b2fd85f75fc23025)
+        ;
+
+        
+    
+    
+            marker_64a88b30f8cdb9488e8ed905e81a9650.bindTooltip(
+                `<div>
+                     João Pessoa
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6de098ae930e7f8c1192bab463556d85 = L.marker(
+                [-8.04756, -34.877],
+                {
+}
+            ).addTo(feature_group_898ed7accb88460dc26e49ab12791c90);
+        
+    
+        var popup_a1e31a3b1f5cbca641c66cc8a8bad898 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2576b85023ef9593efbf68091f57ad86 = $(`<div id="html_2576b85023ef9593efbf68091f57ad86" style="width: 100.0%; height: 100.0%;">         <b>Recife</b><br>         Estado: Pernambuco<br>         UF: PE<br>         Região: Nordeste<br>         Código IBGE do Estado: 26<br>         Região pela API: Nordeste<br>         Latitude: -8.04756<br>         Longitude: -34.877         </div>`)[0];
+                popup_a1e31a3b1f5cbca641c66cc8a8bad898.setContent(html_2576b85023ef9593efbf68091f57ad86);
+            
+        
+
+        marker_6de098ae930e7f8c1192bab463556d85.bindPopup(popup_a1e31a3b1f5cbca641c66cc8a8bad898)
+        ;
+
+        
+    
+    
+            marker_6de098ae930e7f8c1192bab463556d85.bindTooltip(
+                `<div>
+                     Recife
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5a7487760151b20c5143d6f9b8aed9b0 = L.marker(
+                [-5.08921, -42.8016],
+                {
+}
+            ).addTo(feature_group_898ed7accb88460dc26e49ab12791c90);
+        
+    
+        var popup_3624e1009ea29f4fe1cbd96640d0380e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d09f05de9025e7286053ecfdd938e566 = $(`<div id="html_d09f05de9025e7286053ecfdd938e566" style="width: 100.0%; height: 100.0%;">         <b>Teresina</b><br>         Estado: Piauí<br>         UF: PI<br>         Região: Nordeste<br>         Código IBGE do Estado: 22<br>         Região pela API: Nordeste<br>         Latitude: -5.08921<br>         Longitude: -42.8016         </div>`)[0];
+                popup_3624e1009ea29f4fe1cbd96640d0380e.setContent(html_d09f05de9025e7286053ecfdd938e566);
+            
+        
+
+        marker_5a7487760151b20c5143d6f9b8aed9b0.bindPopup(popup_3624e1009ea29f4fe1cbd96640d0380e)
+        ;
+
+        
+    
+    
+            marker_5a7487760151b20c5143d6f9b8aed9b0.bindTooltip(
+                `<div>
+                     Teresina
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_70bd39f830c75e5832fa582493b5c735 = L.marker(
+                [-5.79448, -35.211],
+                {
+}
+            ).addTo(feature_group_898ed7accb88460dc26e49ab12791c90);
+        
+    
+        var popup_52ce44566d27361414f8cd9d98071ec6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a747c9c33dfaf898cd8eaa0c36d4ea19 = $(`<div id="html_a747c9c33dfaf898cd8eaa0c36d4ea19" style="width: 100.0%; height: 100.0%;">         <b>Natal</b><br>         Estado: Rio Grande do Norte<br>         UF: RN<br>         Região: Nordeste<br>         Código IBGE do Estado: 24<br>         Região pela API: Nordeste<br>         Latitude: -5.79448<br>         Longitude: -35.211         </div>`)[0];
+                popup_52ce44566d27361414f8cd9d98071ec6.setContent(html_a747c9c33dfaf898cd8eaa0c36d4ea19);
+            
+        
+
+        marker_70bd39f830c75e5832fa582493b5c735.bindPopup(popup_52ce44566d27361414f8cd9d98071ec6)
+        ;
+
+        
+    
+    
+            marker_70bd39f830c75e5832fa582493b5c735.bindTooltip(
+                `<div>
+                     Natal
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_99decd5a3c102e765f0075cf732be655 = L.marker(
+                [-10.9472, -37.0731],
+                {
+}
+            ).addTo(feature_group_898ed7accb88460dc26e49ab12791c90);
+        
+    
+        var popup_5f5bcd80101880118723068f23a5274e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e23856e3284fe434ba4cb846a5d0b2cc = $(`<div id="html_e23856e3284fe434ba4cb846a5d0b2cc" style="width: 100.0%; height: 100.0%;">         <b>Aracaju</b><br>         Estado: Sergipe<br>         UF: SE<br>         Região: Nordeste<br>         Código IBGE do Estado: 28<br>         Região pela API: Nordeste<br>         Latitude: -10.9472<br>         Longitude: -37.0731         </div>`)[0];
+                popup_5f5bcd80101880118723068f23a5274e.setContent(html_e23856e3284fe434ba4cb846a5d0b2cc);
+            
+        
+
+        marker_99decd5a3c102e765f0075cf732be655.bindPopup(popup_5f5bcd80101880118723068f23a5274e)
+        ;
+
+        
+    
+    
+            marker_99decd5a3c102e765f0075cf732be655.bindTooltip(
+                `<div>
+                     Aracaju
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_898ed7accb88460dc26e49ab12791c90.addTo(map_b2dd9040ed61b1fb1a9079bd98457a8b);
+        
+    
+            var feature_group_92032ab6f3fde03dd42316b5af392a41 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_5768bc0ba54da8bfd6357fcc879fd669 = L.marker(
+                [-15.7939, -47.8828],
+                {
+}
+            ).addTo(feature_group_92032ab6f3fde03dd42316b5af392a41);
+        
+    
+        var popup_7d2e524d5a1bdb6f9922771a5cd9676f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_69bda950e337d8ae45351f6aca3a0bf0 = $(`<div id="html_69bda950e337d8ae45351f6aca3a0bf0" style="width: 100.0%; height: 100.0%;">         <b>Brasília</b><br>         Estado: Distrito Federal<br>         UF: DF<br>         Região: Centro-Oeste<br>         Código IBGE do Estado: 53<br>         Região pela API: Centro-Oeste<br>         Latitude: -15.7939<br>         Longitude: -47.8828         </div>`)[0];
+                popup_7d2e524d5a1bdb6f9922771a5cd9676f.setContent(html_69bda950e337d8ae45351f6aca3a0bf0);
+            
+        
+
+        marker_5768bc0ba54da8bfd6357fcc879fd669.bindPopup(popup_7d2e524d5a1bdb6f9922771a5cd9676f)
+        ;
+
+        
+    
+    
+            marker_5768bc0ba54da8bfd6357fcc879fd669.bindTooltip(
+                `<div>
+                     Brasília
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3c23fa9c5551bc632d8264976d0025e9 = L.marker(
+                [-16.6864, -49.2643],
+                {
+}
+            ).addTo(feature_group_92032ab6f3fde03dd42316b5af392a41);
+        
+    
+        var popup_0e90f885ab7d305d0dcb282c2181b026 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0a0af14c1626b3b19470aa4100f6049b = $(`<div id="html_0a0af14c1626b3b19470aa4100f6049b" style="width: 100.0%; height: 100.0%;">         <b>Goiânia</b><br>         Estado: Goiás<br>         UF: GO<br>         Região: Centro-Oeste<br>         Código IBGE do Estado: 52<br>         Região pela API: Centro-Oeste<br>         Latitude: -16.6864<br>         Longitude: -49.2643         </div>`)[0];
+                popup_0e90f885ab7d305d0dcb282c2181b026.setContent(html_0a0af14c1626b3b19470aa4100f6049b);
+            
+        
+
+        marker_3c23fa9c5551bc632d8264976d0025e9.bindPopup(popup_0e90f885ab7d305d0dcb282c2181b026)
+        ;
+
+        
+    
+    
+            marker_3c23fa9c5551bc632d8264976d0025e9.bindTooltip(
+                `<div>
+                     Goiânia
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_376671674f3d0285a84d9daedc3610fb = L.marker(
+                [-15.601, -56.0974],
+                {
+}
+            ).addTo(feature_group_92032ab6f3fde03dd42316b5af392a41);
+        
+    
+        var popup_547d5fe82179a0f0770a34cf647a355e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3b296472dc657e57e9f43af47a3e05b1 = $(`<div id="html_3b296472dc657e57e9f43af47a3e05b1" style="width: 100.0%; height: 100.0%;">         <b>Cuiabá</b><br>         Estado: Mato Grosso<br>         UF: MT<br>         Região: Centro-Oeste<br>         Código IBGE do Estado: 51<br>         Região pela API: Centro-Oeste<br>         Latitude: -15.601<br>         Longitude: -56.0974         </div>`)[0];
+                popup_547d5fe82179a0f0770a34cf647a355e.setContent(html_3b296472dc657e57e9f43af47a3e05b1);
+            
+        
+
+        marker_376671674f3d0285a84d9daedc3610fb.bindPopup(popup_547d5fe82179a0f0770a34cf647a355e)
+        ;
+
+        
+    
+    
+            marker_376671674f3d0285a84d9daedc3610fb.bindTooltip(
+                `<div>
+                     Cuiabá
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_be0c0cce2fac4c134c791a5317a9711b = L.marker(
+                [-20.4486, -54.6295],
+                {
+}
+            ).addTo(feature_group_92032ab6f3fde03dd42316b5af392a41);
+        
+    
+        var popup_1f2ea5d7634498db5c7f07d9c8255efa = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8e71ba73794a09e041f36daba50df635 = $(`<div id="html_8e71ba73794a09e041f36daba50df635" style="width: 100.0%; height: 100.0%;">         <b>Campo Grande</b><br>         Estado: Mato Grosso do Sul<br>         UF: MS<br>         Região: Centro-Oeste<br>         Código IBGE do Estado: 50<br>         Região pela API: Centro-Oeste<br>         Latitude: -20.4486<br>         Longitude: -54.6295         </div>`)[0];
+                popup_1f2ea5d7634498db5c7f07d9c8255efa.setContent(html_8e71ba73794a09e041f36daba50df635);
+            
+        
+
+        marker_be0c0cce2fac4c134c791a5317a9711b.bindPopup(popup_1f2ea5d7634498db5c7f07d9c8255efa)
+        ;
+
+        
+    
+    
+            marker_be0c0cce2fac4c134c791a5317a9711b.bindTooltip(
+                `<div>
+                     Campo Grande
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_92032ab6f3fde03dd42316b5af392a41.addTo(map_b2dd9040ed61b1fb1a9079bd98457a8b);
+        
+    
+            var feature_group_4e334ae389339dbde95aab987e4a4fe9 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_d018e72f0cc0b6ec2b69280ba5c87de6 = L.marker(
+                [-20.3155, -40.3128],
+                {
+}
+            ).addTo(feature_group_4e334ae389339dbde95aab987e4a4fe9);
+        
+    
+        var popup_33b63b2268c4f427da3273fa561538db = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3abf51edfce6ee7e8b0e4ee676020a05 = $(`<div id="html_3abf51edfce6ee7e8b0e4ee676020a05" style="width: 100.0%; height: 100.0%;">         <b>Vitória</b><br>         Estado: Espírito Santo<br>         UF: ES<br>         Região: Sudeste<br>         Código IBGE do Estado: 32<br>         Região pela API: Sudeste<br>         Latitude: -20.3155<br>         Longitude: -40.3128         </div>`)[0];
+                popup_33b63b2268c4f427da3273fa561538db.setContent(html_3abf51edfce6ee7e8b0e4ee676020a05);
+            
+        
+
+        marker_d018e72f0cc0b6ec2b69280ba5c87de6.bindPopup(popup_33b63b2268c4f427da3273fa561538db)
+        ;
+
+        
+    
+    
+            marker_d018e72f0cc0b6ec2b69280ba5c87de6.bindTooltip(
+                `<div>
+                     Vitória
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4423b286b5026cf32456297d07060adf = L.marker(
+                [-19.9167, -43.9345],
+                {
+}
+            ).addTo(feature_group_4e334ae389339dbde95aab987e4a4fe9);
+        
+    
+        var popup_191478746508c820ff4d0548c1726496 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_11a9599c1c0c3eec8bd7ead3ed956fd2 = $(`<div id="html_11a9599c1c0c3eec8bd7ead3ed956fd2" style="width: 100.0%; height: 100.0%;">         <b>Belo Horizonte</b><br>         Estado: Minas Gerais<br>         UF: MG<br>         Região: Sudeste<br>         Código IBGE do Estado: 31<br>         Região pela API: Sudeste<br>         Latitude: -19.9167<br>         Longitude: -43.9345         </div>`)[0];
+                popup_191478746508c820ff4d0548c1726496.setContent(html_11a9599c1c0c3eec8bd7ead3ed956fd2);
+            
+        
+
+        marker_4423b286b5026cf32456297d07060adf.bindPopup(popup_191478746508c820ff4d0548c1726496)
+        ;
+
+        
+    
+    
+            marker_4423b286b5026cf32456297d07060adf.bindTooltip(
+                `<div>
+                     Belo Horizonte
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8f6e409a38279f0f189ff4665d3c429f = L.marker(
+                [-22.9068, -43.1729],
+                {
+}
+            ).addTo(feature_group_4e334ae389339dbde95aab987e4a4fe9);
+        
+    
+        var popup_ca84bf8d869ae8cede02e226cbed984a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fedf2c33ce08d926bf8758a5cab84852 = $(`<div id="html_fedf2c33ce08d926bf8758a5cab84852" style="width: 100.0%; height: 100.0%;">         <b>Rio de Janeiro</b><br>         Estado: Rio de Janeiro<br>         UF: RJ<br>         Região: Sudeste<br>         Código IBGE do Estado: 33<br>         Região pela API: Sudeste<br>         Latitude: -22.9068<br>         Longitude: -43.1729         </div>`)[0];
+                popup_ca84bf8d869ae8cede02e226cbed984a.setContent(html_fedf2c33ce08d926bf8758a5cab84852);
+            
+        
+
+        marker_8f6e409a38279f0f189ff4665d3c429f.bindPopup(popup_ca84bf8d869ae8cede02e226cbed984a)
+        ;
+
+        
+    
+    
+            marker_8f6e409a38279f0f189ff4665d3c429f.bindTooltip(
+                `<div>
+                     Rio de Janeiro
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_695862078dfeaaffd6d1ac12f5660fcb = L.marker(
+                [-23.5505, -46.6333],
+                {
+}
+            ).addTo(feature_group_4e334ae389339dbde95aab987e4a4fe9);
+        
+    
+        var popup_b913f69625ef2622857ba063edd9f84d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0c1531d477e50d51004a6301cba39f6f = $(`<div id="html_0c1531d477e50d51004a6301cba39f6f" style="width: 100.0%; height: 100.0%;">         <b>São Paulo</b><br>         Estado: São Paulo<br>         UF: SP<br>         Região: Sudeste<br>         Código IBGE do Estado: 35<br>         Região pela API: Sudeste<br>         Latitude: -23.5505<br>         Longitude: -46.6333         </div>`)[0];
+                popup_b913f69625ef2622857ba063edd9f84d.setContent(html_0c1531d477e50d51004a6301cba39f6f);
+            
+        
+
+        marker_695862078dfeaaffd6d1ac12f5660fcb.bindPopup(popup_b913f69625ef2622857ba063edd9f84d)
+        ;
+
+        
+    
+    
+            marker_695862078dfeaaffd6d1ac12f5660fcb.bindTooltip(
+                `<div>
+                     São Paulo
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_4e334ae389339dbde95aab987e4a4fe9.addTo(map_b2dd9040ed61b1fb1a9079bd98457a8b);
+        
+    
+            var feature_group_5c2c9872fcfde7d526f0e8b66e44a292 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_a7775ce3b096ac3cfb2637b90dad292d = L.marker(
+                [-25.4284, -49.2733],
+                {
+}
+            ).addTo(feature_group_5c2c9872fcfde7d526f0e8b66e44a292);
+        
+    
+        var popup_63995216ceadd47e64e6ab0c8af2cd50 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6e13521d5c11b4f104e10a29d3bced72 = $(`<div id="html_6e13521d5c11b4f104e10a29d3bced72" style="width: 100.0%; height: 100.0%;">         <b>Curitiba</b><br>         Estado: Paraná<br>         UF: PR<br>         Região: Sul<br>         Código IBGE do Estado: 41<br>         Região pela API: Sul<br>         Latitude: -25.4284<br>         Longitude: -49.2733         </div>`)[0];
+                popup_63995216ceadd47e64e6ab0c8af2cd50.setContent(html_6e13521d5c11b4f104e10a29d3bced72);
+            
+        
+
+        marker_a7775ce3b096ac3cfb2637b90dad292d.bindPopup(popup_63995216ceadd47e64e6ab0c8af2cd50)
+        ;
+
+        
+    
+    
+            marker_a7775ce3b096ac3cfb2637b90dad292d.bindTooltip(
+                `<div>
+                     Curitiba
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4a812b8fb89693560b39ac0fc7b4d0c9 = L.marker(
+                [-30.0346, -51.2177],
+                {
+}
+            ).addTo(feature_group_5c2c9872fcfde7d526f0e8b66e44a292);
+        
+    
+        var popup_2794291a22d65b22e92a852716b01180 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_54a6e14d6bccdc878d0e52913d699ef8 = $(`<div id="html_54a6e14d6bccdc878d0e52913d699ef8" style="width: 100.0%; height: 100.0%;">         <b>Porto Alegre</b><br>         Estado: Rio Grande do Sul<br>         UF: RS<br>         Região: Sul<br>         Código IBGE do Estado: 43<br>         Região pela API: Sul<br>         Latitude: -30.0346<br>         Longitude: -51.2177         </div>`)[0];
+                popup_2794291a22d65b22e92a852716b01180.setContent(html_54a6e14d6bccdc878d0e52913d699ef8);
+            
+        
+
+        marker_4a812b8fb89693560b39ac0fc7b4d0c9.bindPopup(popup_2794291a22d65b22e92a852716b01180)
+        ;
+
+        
+    
+    
+            marker_4a812b8fb89693560b39ac0fc7b4d0c9.bindTooltip(
+                `<div>
+                     Porto Alegre
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3a8e0078aae38117ebbcd1a476fe0b1e = L.marker(
+                [-27.5954, -48.548],
+                {
+}
+            ).addTo(feature_group_5c2c9872fcfde7d526f0e8b66e44a292);
+        
+    
+        var popup_f08cf6737a290e80e5d42a5341ba079f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3e79f9577ff5a0616823ad4af809f359 = $(`<div id="html_3e79f9577ff5a0616823ad4af809f359" style="width: 100.0%; height: 100.0%;">         <b>Florianópolis</b><br>         Estado: Santa Catarina<br>         UF: SC<br>         Região: Sul<br>         Código IBGE do Estado: 42<br>         Região pela API: Sul<br>         Latitude: -27.5954<br>         Longitude: -48.548         </div>`)[0];
+                popup_f08cf6737a290e80e5d42a5341ba079f.setContent(html_3e79f9577ff5a0616823ad4af809f359);
+            
+        
+
+        marker_3a8e0078aae38117ebbcd1a476fe0b1e.bindPopup(popup_f08cf6737a290e80e5d42a5341ba079f)
+        ;
+
+        
+    
+    
+            marker_3a8e0078aae38117ebbcd1a476fe0b1e.bindTooltip(
+                `<div>
+                     Florianópolis
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_5c2c9872fcfde7d526f0e8b66e44a292.addTo(map_b2dd9040ed61b1fb1a9079bd98457a8b);
+        
+    
+            var layer_control_9aab268a87f778b4ddf52a9ee63b2aeb_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_612121b6be8af6a272dd765906a39be9,
+                },
+                overlays :  {
+                    "Norte" : feature_group_5a023112c7fad05f1ea8705cc1e97bb3,
+                    "Nordeste" : feature_group_898ed7accb88460dc26e49ab12791c90,
+                    "Centro-Oeste" : feature_group_92032ab6f3fde03dd42316b5af392a41,
+                    "Sudeste" : feature_group_4e334ae389339dbde95aab987e4a4fe9,
+                    "Sul" : feature_group_5c2c9872fcfde7d526f0e8b66e44a292,
+                },
+            };
+            let layer_control_9aab268a87f778b4ddf52a9ee63b2aeb = L.control.layers(
+                layer_control_9aab268a87f778b4ddf52a9ee63b2aeb_layers.base_layers,
+                layer_control_9aab268a87f778b4ddf52a9ee63b2aeb_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": false,
+  "autoZIndex": true,
+}
+            ).addTo(map_b2dd9040ed61b1fb1a9079bd98457a8b);
+
+        
+</script>
+</html>
