@@ -26,8 +26,8 @@ df = df.merge(df_api, on="uf", how="left")
 
 # mapa com filtro por região
 mapa_regioes = folium.Map(
-    location=[-14.2350, -51.9253],
-    zoom_start=4
+    location=[-15.2738, -55.4459],
+    zoom_start=5
 )
 
 # aqui faremos uma camada para cada região
